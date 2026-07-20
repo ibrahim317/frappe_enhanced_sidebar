@@ -7,7 +7,8 @@
  "engine": "InnoDB",
  "field_order": [
   "category_name",
-  "permitted_roles"
+  "permitted_roles",
+  "idx"
  ],
  "fields": [
   {
@@ -22,6 +23,13 @@
    "fieldtype": "Table MultiSelect",
    "label": "Roles",
    "options": "Has Role"
+  },
+  {
+   "default": "0",
+   "fieldname": "idx",
+   "fieldtype": "Int",
+   "in_list_view": 1,
+   "label": "Order"
   }
  ],
  "grid_page_length": 50,
@@ -32,7 +40,7 @@
    "link_fieldname": "category"
   }
  ],
- "modified": "2026-04-12 15:19:27.636743",
+ "modified": "2026-05-05 01:14:48.520137",
  "modified_by": "Administrator",
  "module": "Enhanced Sidebar",
  "name": "Sidebar Category",

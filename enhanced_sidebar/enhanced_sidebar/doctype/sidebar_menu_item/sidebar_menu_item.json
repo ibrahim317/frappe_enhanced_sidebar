@@ -8,6 +8,7 @@
  "field_order": [
   "name1",
   "category",
+  "idx",
   "column_break_znea",
   "link_to",
   "permitted_roles",
@@ -107,12 +108,18 @@
    "fieldtype": "Table MultiSelect",
    "label": "Roles",
    "options": "Has Role"
+  },
+  {
+   "fieldname": "idx",
+   "fieldtype": "Int",
+   "in_list_view": 1,
+   "label": "Order"
   }
  ],
  "grid_page_length": 50,
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2026-04-12 15:15:30.310843",
+ "modified": "2026-05-05 01:15:51.469959",
  "modified_by": "Administrator",
  "module": "Enhanced Sidebar",
  "name": "Sidebar Menu Item",
